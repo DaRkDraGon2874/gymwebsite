@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirav fitness</title>
+</head>
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+        background: url("pexels-jonathan-borba-6844938.jpg");
+        height:900px;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top:20px;
+        color:white;
+    }
+    .left img{
+        width:90px;
+        filter:invert(100%)
+    }
+    .left div{
+        text-align: center;
+    }
+    .center{
+        display: block;
+        width:33%;
+        margin: auto;
+    }
+    .right{
+        display: inline-block;
+        position:absolute;
+        right:32px;
+        top:20px;
+    }
+    .navbar{
+        display: inline-block;
+        text-decoration: none;
+    }
+    .navbar li{
+        display:inline-block;
+        padding:10px;
+    }
+    .navbar li a {
+        text-decoration: none ;
+        font: size 25px;
+        color:white;
+    }
+    .navbar li a:hover{
+        color: rgb(114, 79, 79);
+    }
+    .btn{
+        margin:0px 9px;
+        cursor:pointer;
+        background-color:black;
+        color:white;
+        border-radius:20px;
+    }
+    .container{
+        margin: 100px 2px;
+        padding: 20px 20px;
+        width:28%;
+        border-radius:10px;
+    }
+    .form input{
+        text-align: center;
+        display:block;
+        padding: 10px;
+        width:200px;
+        margin:8px auto;
+        border-radius:20px;
+    }
+    .container h3{
+        text-align: center;
+        color:white;
+    }
+    .form button{
+        display:block;
+        margin: auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="kisspng-dumbbell-physical-fitness-fitness-centre-barbell-c-dumbbell-icon-5b204619696262.9451124715288417534317.png" alt="">
+            <div>Nirav's  Fitness</div>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now </button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#"> Fitness Calculator</a></li>
+                <li><a href="#"> Contact Us</a></li>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the best Gym in Gujarat Now</h3>
+        <form action="noation.php">
+            <div class="form">
+            <div>
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div>
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div>
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div>
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div>
+                <input type="text" name="" placeholder="Enter your Number">
+            </div>
+            <div>
+                <button class="btn">Submit now</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
